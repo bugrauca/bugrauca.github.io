@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Bugra Uca - Online CV</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #374151; /* Dark gray text */
+        }
+        .container {
+            max-width: 960px;
+        }
+        .section-title {
+            border-bottom: 2px solid #6b7280; /* Gray border */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #1f2937; /* Darker gray for titles */
+        }
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 1.5rem;
+        }
+        .experience-item:last-child, .education-item:last-child, .project-item:last-child {
+            margin-bottom: 0;
+        }
+        ul.list-disc li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8 bg-white shadow-lg rounded-lg my-8">
+
+        <!-- Header Section -->
+        <header class="text-center mb-8 pb-4 border-b border-gray-300">
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">Mustafa Bugra Uca</h1>
+            <p class="text-lg text-gray-600 mb-4">Master's Student in Artificial Intelligence</p>
+            <div class="flex flex-wrap justify-center gap-4 text-gray-700">
+                <a href="mailto:bugrauca@outlook.com" class="hover:text-blue-600 transition duration-300">
+                    <i class="fas fa-envelope mr-1"></i> bugrauca@outlook.com
+                </a>
+                <a href="tel:+491632349478" class="hover:text-blue-600 transition duration-300">
+                    <i class="fas fa-phone mr-1"></i> +491632349478
+                </a>
+                <a href="https://linkedin.com/in/mustafabugrauca" target="_blank" class="hover:text-blue-600 transition duration-300">
+                    <i class="fab fa-linkedin mr-1"></i> LinkedIn
+                </a>
+                <a href="https://github.com/bugrauca" target="_blank" class="hover:text-blue-600 transition duration-300">
+                    <i class="fab fa-github mr-1"></i> GitHub
+                </a>
+                <span class="text-gray-700"><i class="fas fa-map-marker-alt mr-1"></i> Cottbus, Germany</span>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold section-title">Summary</h2>
+            <p class="text-gray-700 leading-relaxed">
+                Highly motivated Master's student in Artificial Intelligence with a background in Computer Engineering and hands-on experience in Machine Learning, Computer Vision, and NLP. Skilled in developing and evaluating AI models using Python, PyTorch, scikit-learn, and Transformers with practical knowledge in deep learning (LSTM, BERT) and traditional ML algorithms. Additionally experienced in relational databases and data warehousing, including designing ETL pipelines and working with Oracle SQL and PL/SQL. Seeking a Working Student or Internship position in Machine Learning, Data Science, or AI-driven Robotics/Computer Vision to contribute to real-world applications.
+            </p>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold section-title">Experience</h2>
+            <div class="experience-item">
+                <h3 class="text-xl font-semibold text-gray-800">Software Developer</h3>
+                <p class="text-gray-600">Path Product & Software House | Istanbul, Turkey | September 2021 – October 2022</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2">
+                    <li>Contributed as a Frontend Developer to the development and maintenance of Shopify projects for international clients within a Scrum framework.</li>
+                    <li>Participated in the development of a Super App using Flutter and MVC architecture, integrating payment and marketplace services via RESTful APIs and Git, following Agile methodology.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3 class="text-xl font-semibold text-gray-800">Software Developer Intern</h3>
+                <p class="text-gray-600">Path Product & Software House | Istanbul, Turkey | July 2021 – September 2021</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2">
+                    <li>Developed a demo mobile application using Flutter within the MVC architecture.</li>
+                    <li>Assisted in web application development project utilizing React and Symfony PHP Framework.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3 class="text-xl font-semibold text-gray-800">Software Test Engineer Intern</h3>
+                <p class="text-gray-600">Muğla Sıtkı Koçman University | Muğla, Turkey | March 2021 – June 2021</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2">
+                    <li>Executed automated GUI testing of various mobile applications using Selenium, covering test preparation, generation, and execution phases.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold section-title">Education</h2>
+            <div class="education-item">
+                <h3 class="text-xl font-semibold text-gray-800">Master of Science in Artificial Intelligence</h3>
+                <p class="text-gray-600">Brandenburgische Technische Universität, Cottbus | October 2022 – Present</p>
+            </div>
+            <div class="education-item">
+                <h3 class="text-xl font-semibold text-gray-800">Bachelor of Science in Computer Engineering</h3>
+                <p class="text-gray-600">Bahçeşehir University, Istanbul | September 2018 – August 2022</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2">
+                    <li>GPA: 3.1/4.0 German Grade: 1.9</li>
+                </ul>
+            </div>
+            <div class="education-item">
+                <h3 class="text-xl font-semibold text-gray-800">High School</h3>
+                <p class="text-gray-600">Darüşşafaka Schools, Istanbul | 2018</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold section-title">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-700">
+                <div>
+                    <h4 class="font-semibold text-gray-800">Programming:</h4>
+                    <p>Python, C++, Java, SQL</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800">AI/ML:</h4>
+                    <p>PyTorch, scikit-learn, Transformers, pandas, OpenCV</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800">Databases:</h4>
+                    <p>Oracle SQL, PL/SQL, ETL, PostgreSQL, MySQL, Firebase</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800">Web/Mobile:</h4>
+                    <p>React, HTML/CSS/JavaScript, Flutter, Swift</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800">Tools:</h4>
+                    <p>Git, Unix/Linux, Matlab/Simulink, Unreal Engine, Raspberry Pi, Selenium, Shopify</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800">Languages:</h4>
+                    <p>Turkish (Native), English (Advanced), German (Upper-Intermediate)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold section-title">Projects</h2>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">Object Detection and Tracking on Raspberry Pi <span class="text-base font-normal text-gray-500">(Master's Program Project, 2025)</span></h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Developed a lightweight object detection and shape classification pipeline using Python, OpenCV, and NumPy on a Raspberry Pi.</li>
+                    <li>Implemented and tested multiple scenarios integrating edge detection, motion segmentation, and optical flow for object tracking.</li>
+                    <li>Evaluated and compared object counting performance across scenarios to assess accuracy under varying visual and motion conditions.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">Sentiment Analysis on Social Media Posts <span class="text-base font-normal text-gray-500">(Master's Program Project, 2025)</span></h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Built a sentiment classification system using the Sentiment140 dataset with Naive Bayes, LSTM and fine-tuned BERT models.</li>
+                    <li>Performed text preprocessing and label transformation; tuned hyperparameters for all models.</li>
+                    <li>Used Python, PyTorch, scikit-learn and Transformers for implementation and evaluation.</li>
+                    <li>Evaluated performance using accuracy, confusion matrices, and training/validation metric visualizations.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">Information Retrieval System <span class="text-base font-normal text-gray-500">(Master's Program Project, 2024)</span></h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Developed an information retrieval system in Python incorporating document collection preparation, stop word removal, and stemming using the Porter algorithm.</li>
+                    <li>Utilized the libraries re and abc.</li>
+                    <li>Implemented Boolean retrieval with inverted lists, signature-based search, and a Vector Space Model utilizing tf.idf term weighting, based on the Salton/Buckley method.</li>
+                    <li>Evaluated both models using precision and recall metrics for query performance.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">Classifier Evaluation for Image Data Analysis <span class="text-base font-normal text-gray-500">(Master's Program Project, 2023)</span></h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Developed a program in Python using three different classifiers (KNeighbors Classifier, GaussianNB, MLPClassifier) on image and edge histogram datasets.</li>
+                    <li>Utilized libraries such as NumPy, Pandas, and scikit-learn.</li>
+                    <li>Designed to train, evaluate classifiers while saving confusion matrices and hyperparameters for analysis.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold section-title">Certificates</h2>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">Stanford University - Boğaziçi University Summer School on Introduction to Computer Programming</h3>
+                <p class="text-gray-600">Participation Certificate, 2015</p>
+            </div>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">Hisar School Junior Model United Nations Conference Delegate</h3>
+                <p class="text-gray-600">2013</p>
+            </div>
+        </section>
+
+        <!-- Competitions & Awards Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold section-title">Competitions & Awards</h2>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">The Duke of Edinburgh's International Award Turkey</h3>
+                <p class="text-gray-600">Bronze Award, 2017</p>
+            </div>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">FIRST Robotics Competition USA</h3>
+                <p class="text-gray-600">Inspire Award (2nd Place), 2015</p>
+            </div>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">Destination Imagination Global Finals USA</h3>
+                <p class="text-gray-600">Participation Certificate, 2013</p>
+            </div>
+        </section>
+
+
+        <!-- Footer Section -->
+        <footer class="text-center text-gray-500 text-sm mt-8 pt-4 border-t border-gray-300">
+            <p>&copy; <span id="current-year"></span> Mustafa Bugra Uca. All rights reserved.</p>
+            <p>Built with HTML, Tailwind CSS, and hosted on GitHub Pages.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Dynamically set the current year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <!-- Font Awesome for icons (optional, but good for social links) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
